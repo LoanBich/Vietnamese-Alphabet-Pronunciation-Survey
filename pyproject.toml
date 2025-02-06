@@ -1,0 +1,18 @@
+[project]
+name = "web"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dropbox>=12.0.2",
+    "librosa>=0.10.2.post1",
+    "ruff>=0.8.4",
+    "streamlit>=1.41.1",
+    "streamlit-audiorecorder>=0.0.6",
+    "torch>=2.5.1",
+    "transformers>=4.47.1",
+]
+
+[tool.pyright]
+# reportUnknownMemberType = "none"

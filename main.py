@@ -132,7 +132,7 @@ def show_lesson(lesson):
                     st.info(
                         f"Your score: **{score:.1f}**. Your pronounciation is really good."
                     )
-                else:
+                if score is not None and score <= 3.8:
                     st.warning(
                         f"Your score: **{score:.1f}**. You need practice. Please review the video and help us record again (**at least 3 times**)!"
                     )
